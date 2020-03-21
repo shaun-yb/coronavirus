@@ -1,6 +1,6 @@
 require "coronavirus/version"
 
 module Coronavirus
-  class Error < StandardError; end
+  class InvalidAdapterArgs < StandardError; end
   # Your code goes here...
 end
